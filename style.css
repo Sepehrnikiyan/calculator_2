@@ -42,8 +42,9 @@ body {
 button.clear-display{
     background: red;
     color: #fff;
+    grid-column:span 4;
 }
-button {
+button{
     width: 60px;
     height: 60px;
     font-size: 1.3em;
@@ -56,6 +57,9 @@ button {
     font-weight: 600;
     border-radius: 5px;
 }
+button:nth-child(1){
+    width: auto;
+} 
 button:active {
     background-color: #ccc;
 }
